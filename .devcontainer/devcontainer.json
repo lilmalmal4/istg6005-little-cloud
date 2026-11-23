@@ -1,4 +1,10 @@
 {
-  "name": "my-devcontainer",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu"
+  "name": "super-happy-devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/data,type=bind"
+  ],
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  }
 }
