@@ -1,0 +1,73 @@
+[
+  {
+    "id": "macbook-air-m4-13",
+    "brand": "Apple",
+    "name": "MacBook Air 13-inch (M4, 2025)",
+    "price": 999,
+    "priceLabel": "US starting price at launch",
+    "weightKg": 1.24,
+    "batteryHours": 18,
+    "batteryLabel": "Up to 18 hours video streaming",
+    "ramGb": 16,
+    "ramLabel": "16 GB unified memory",
+    "source": "https://www.apple.com/newsroom/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/",
+    "sourceLabel": "Apple specs and launch price"
+  },
+  {
+    "id": "surface-laptop-13-8-7",
+    "brand": "Microsoft",
+    "name": "Surface Laptop 13.8-inch (7th Edition)",
+    "price": 1199.99,
+    "priceLabel": "US starting price shown in Microsoft Store",
+    "weightKg": 1.34,
+    "batteryHours": 20,
+    "batteryLabel": "Up to 20 hours local video playback",
+    "ramGb": 16,
+    "ramLabel": "16 GB starting configuration",
+    "source": "https://www.microsoft.com/en-us/store/configure/surface-laptop-13-8-inch/8mzbmmcjzqjk",
+    "sourceLabel": "Microsoft Store specs and price"
+  },
+  {
+    "id": "zenbook-14-ux3405",
+    "brand": "ASUS",
+    "name": "Zenbook 14 OLED (UX3405)",
+    "price": 1299.99,
+    "priceLabel": "US starting MSRP at launch",
+    "weightKg": 1.28,
+    "batteryHours": 15,
+    "batteryLabel": "15+ hours (ASUS estimate)",
+    "ramGb": 16,
+    "ramLabel": "16 GB onboard in a listed configuration",
+    "source": "https://www.asus.com/us/laptops/for-home/zenbook/asus-zenbook-14-ux3405/techspec/",
+    "sourceLabel": "ASUS specs (price in launch announcement)",
+    "priceSource": "https://www.asus.com/us/news/1lub5syy5mkfxoj6/"
+  },
+  {
+    "id": "yoga-slim-7i-aura",
+    "brand": "Lenovo",
+    "name": "Yoga Slim 7i Aura Edition (14-inch, Gen 10)",
+    "price": 1099,
+    "priceLabel": "US expected starting price at launch",
+    "weightKg": 1.25,
+    "batteryHours": null,
+    "batteryLabel": "Not published in linked source",
+    "ramGb": 32,
+    "ramLabel": "Up to 32 GB; base configuration not specified",
+    "source": "https://news.lenovo.com/pressroom/press-releases/expand-and-empower-creativity-with-ai-enabled-new-lenovo-yoga-and-ideapad-devices/",
+    "sourceLabel": "Lenovo specs and launch price"
+  },
+  {
+    "id": "yoga-slim-9i",
+    "brand": "Lenovo",
+    "name": "Yoga Slim 9i (14-inch, Gen 10)",
+    "price": 1849,
+    "priceLabel": "US expected starting price at launch",
+    "weightKg": 1.19,
+    "batteryHours": 17,
+    "batteryLabel": "Up to 17 hours (Lenovo estimate)",
+    "ramGb": 32,
+    "ramLabel": "Up to 32 GB; base configuration not specified",
+    "source": "https://news.lenovo.com/pressroom/press-releases/expand-and-empower-creativity-with-ai-enabled-new-lenovo-yoga-and-ideapad-devices/",
+    "sourceLabel": "Lenovo specs and launch price"
+  }
+]

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compare laptop prices, weight, battery life and RAM for university.">
+  <title>Campus Laptop Finder</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">A practical guide for university</p>
+      <h1>Find a laptop that fits your student budget.</h1>
+      <p class="intro">Compare five popular laptops by price, weight, battery life and memory. Prices are published U.S. starting prices; local prices, taxes and student discounts can differ.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Laptop filters">
+      <label class="budget-control" for="budget">
+        <span>Maximum budget</span>
+        <span class="input-wrap"><span aria-hidden="true">$</span><input id="budget" type="number" min="0" step="50" placeholder="Any budget" inputmode="numeric"></span>
+      </label>
+      <label for="sort">
+        <span>Sort by</span>
+        <select id="sort">
+          <option value="recommended">Recommended</option>
+          <option value="price">Price: low to high</option>
+          <option value="weight">Weight: light to heavy</option>
+          <option value="battery">Battery life: longest first</option>
+          <option value="ram">RAM: most first</option>
+        </select>
+      </label>
+      <button id="reset" class="reset-button" type="button">Reset</button>
+    </section>
+
+    <div class="results-heading">
+      <h2>Your shortlist</h2>
+      <p id="result-count" aria-live="polite"></p>
+    </div>
+    <section id="laptop-list" class="laptop-list" aria-label="Laptop comparison"></section>
+
+    <aside class="note">
+      <h2>Before you buy</h2>
+      <p>These are manufacturer-published U.S. starting prices, not guaranteed current offers. A starting price may refer to a lower configuration than the RAM or weight details shown. Check the laptop maker or an authorized retailer in your destination country for the exact configuration, keyboard layout, warranty coverage, taxes and student pricing. Battery life is a manufacturer estimate under its own test conditions; real use varies.</p>
+      <p>“Not published” means the linked manufacturer source did not provide a comparable runtime or exact base RAM figure. The source link on each laptop has the details.</p>
+    </aside>
+  </main>
+  <footer><span>Campus Laptop Finder</span><span>Specs and pricing should be checked before purchase.</span></footer>
+</body>
+</html>
