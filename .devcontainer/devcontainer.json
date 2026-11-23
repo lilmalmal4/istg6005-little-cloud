@@ -1,10 +1,14 @@
 {
-  "name": "super-happy-devcontainer",
+  "name": "ai-cloud-devops-devcontainer",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "mounts": [
     "source=${localWorkspaceFolder},target=/data,type=bind"
   ],
   "features": {
-    "ghcr.io/devcontainers/features/python:1": {}
-  }
+    "ghcr.io/devcontainers/features/python:1": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "postCreateCommand": "npm install -g @openai/codex@latest && codex --version"
 }
